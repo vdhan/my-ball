@@ -4,26 +4,26 @@
 		<meta charset="UTF-8" />
 		<title>Demo Object Oriented Javascript</title>
 		<script src = 'js/ball.js'></script>
-		
+
 		<style>
 			body {
 				text-align: center;
 				font-family: Arial, sans-serif;
 				font-size: 100%;
 			}
-			
+
 			#canvas {
 				border: 1px solid;
 			}
-			
+
 			#copy {
 				color: #00f;
 			}
 		</style>
 	</head>
-	
+
 	<body>
 		<canvas id="canvas" width="400px" height="300px">Trình duyệt không hỗ trợ</canvas>
-		<p id = 'copy'><strong>Copyright &copy; 2012 Hoàng Ân</strong></p>
+		<p id = 'copy'><strong>Copyright &copy; 2012<script>new Date().getFullYear() > 2012 && document.write("-" + new Date().getFullYear());</script>, Hoàng Ân</strong></p>
 	</body>
 </html>
